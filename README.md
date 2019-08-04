@@ -1,8 +1,10 @@
 1.环境搭建
 anaconda环境配置
 登录https://www.anaconda.com 下载python3.7 版本,或者进python官方网站下载
+
 解释器
 http://www.jetbrains.com/pycharm/download/#section=windows 下载了PyCharm编译器
+
 2.python初体验
 
 print 和 input
