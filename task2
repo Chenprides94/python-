@@ -1,10 +1,46 @@
 1.列表
-标志
+
+标志  []
+
 基本操作(创建，append( )，pop( ) ,del( ), 拷贝）
-列表相关方法
+a = 1
+# 把1赋值给a
+list = [1, a, 5, 2, 4, 3, 4, [2, 4]]
+# 生成列表a_list
+list.append(5)
+# 在列表的最后增加数字5
+print(list)
+# 输出列表
+list.remove(1)
+# 删除列表从左往右第一个数字1，remove只执行一次
+print(list)
+# 输出列表
+list[0] = 2
+# 列表中第一位数字修改为2
+print(list)
+# 输出列表
+list.insert(3, 7)
+# 在原列表的第4个数值前插入数字7
+print(list)
+# 输出列表
+del list[3]
+# 在源列表删除第4个数值
+print(list)
+# 输出列表
+a_list = list.pop(0)
+#在list列表内删除第一位数2，但是保留数值
+print(list)
+#输出list，第一位数2已被删除
+print(a_list)
+#输出a_list列表，里面是被删除的2数值
+
+
 2.元组
-标志
+
+标志（）
+
 基本操作（创建及不可变性）
+
 3.string字符串
 定义及基本操作（+，*，读取方式）
 字符串相关方法
