@@ -15,6 +15,26 @@
 方法
 
 3.判断语句（要求掌握多条件判断）
+if-elif-else 的应用：
+a = int(input('请输入你心目中的数字：'))
+# 设置输入项,将变量a定义为整数型
+if a >= 10:
+    print('马云')
+    if a >= 15:
+        print('阿里')
+    else:
+        print('支付宝')
+elif 2 <= a < 10:
+    print('李彦宏')
+    if a < 5:
+        print('百度')
+    else:
+        print('''what's your progrom?''')
+else:
+    print('马化腾')
+    print('腾讯')
+    print('微信')
+print('BAT')
 
 4.三目表达式
 
